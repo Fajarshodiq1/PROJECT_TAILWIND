@@ -12,8 +12,13 @@
     <!-- hero section start -->
     <section id="home" class="pt-6">
       <!-- semua section akan disimpan ke tengah tengah ke dalam container -->
+      <div class="max-w-screen-md mx-auto py-3">
+        <h1 class="text-xl px-7 text-[#FF9C1A] font-pacifico">
+          <span class="text-[#EC1B09]">My</span>Portfolio
+        </h1>
+      </div>
       <div
-        class="text m-auto flex items-center justify-center mt-5 border border-slate-200 bg-slate-100 rounded-xl px-28 py-3 shadow-xl max-w-screen-md"
+        class="m-auto flex items-center justify-center mt-5 border border-slate-200 bg-slate-100 rounded-xl px-28 py-3 shadow-xl max-w-screen-md"
       >
         <a
           href="#"
@@ -39,13 +44,13 @@
           ></i>
         </a>
       </div>
-      <div class="container">
+      <div class="items-center mx-auto">
         <!-- flex di gunakan untuk memudahkan mengatur elemen supaya turun kebawah di berikan flex-wrap -->
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap justify-center">
           <!-- width full di gunakan ketika di versi agar semua semua nya jadi satu kolom dan berikan self center agar smua nya berada di tengah -->
           <!-- BOX INFO -->
           <div
-            class="w-full px-5 self-center max-w-sm border border-slate-200 p-5 bg-white mx-auto rounded-xl shadow-md justify-center xl:top-full xl:-mr-24 min-w-full md:min-w-0 md:mx-auto lg:w-[450px] lg:h-[650px] lg:min-w-0 lg:mx-auto"
+            class="border border-slate-200 p-5 mt-6 bg-white mx-auto rounded-xl shadow-md w-full md:max-w-screen-md"
           >
             <img
               src="../asset/haha.jpg"
@@ -133,9 +138,9 @@
 
           <!-- BOX ABOUT -->
           <div
-            class="mt-5 w-full self-center max-w-sm border border-slate-200 bg-white mx-auto p-6 rounded-xl shadow-d items-center justify-center md:max-w-screen-sm md:my-10 min-w-full md:min-w-0 lg:pb-30 lg:w-full"
+            class="my-6 max-w-screen-md border border-slate-200 bg-white mx-auto p-6 rounded-xl shadow-md items-center justify-center md:max-w-screen-md"
           >
-            <h1 class="text-2xl font-semibold px-2 py-2 md:text-md lg:text-xs">
+            <h1 class="text-2xl font-semibold px-2 py-2 md:text-md">
               ABOUT ME
             </h1>
             <hr class="border-b border-orange-600" />
@@ -151,7 +156,7 @@
               WHAT I DO!
             </h1>
             <div
-              class="md:columns-2 container mt-5 rounded-xl border border-slate-500 sm:columns-2"
+              class="md:columns-2 container mt-5 rounded-xl sm:columns-2"
             >
               <div
                 class="w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-orange-200 mx-auto rounded-xl shadow-md items-center justify-center"

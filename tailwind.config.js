@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         oswald: "Oswald",
+        pacifico: ['Pacifico', 'cursive']
       },
       colors: {
         amber: "#FF9C1A",
