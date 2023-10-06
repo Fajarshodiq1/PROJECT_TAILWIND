@@ -1,145 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../dist/output.css" />
-    <link rel="stylesheet" href="../fontawesome-free-6.4.2-web/css/all.css" />
-    <title>Document</title>
-  </head>
-  <body class="bg-slate-200">
-    <!-- HOME -->
-    <!-- hero section start -->
-    <section id="home" class="pt-6">
-      <!-- semua section akan disimpan ke tengah tengah ke dalam container -->
-      <div class="max-w-screen-md mx-auto py-3">
-        <h1 class="text-xl px-7 text-[#FF9C1A] font-pacifico">
-          <span class="text-[#EC1B09]">My</span>Portfolio
-        </h1>
-      </div>
-      <div
-        class="m-auto flex items-center justify-center mt-5 border border-slate-200 bg-slate-100 rounded-xl px-28 py-3 shadow-xl max-w-screen-md"
-      >
-        <a
-          href="#"
-          target="_blank"
-          class="bg-slate-200 text-white rounded-lg p-5 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-        >
-          <i class="fa-solid fa-home text-slate-600 mx-3 hover:text-white"></i>
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          class="bg-slate-200 text-white rounded-lg p-5 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-        >
-          <i class="fa-solid fa-book text-slate-600 mx-3 hover:text-white"></i>
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          class="bg-slate-200 text-white rounded-lg p-5 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-        >
-          <i
-            class="fa-solid fa-address-book text-slate-600 mx-3 hover:text-white"
-          ></i>
-        </a>
-      </div>
-      <div class="items-center mx-auto">
-        <!-- flex di gunakan untuk memudahkan mengatur elemen supaya turun kebawah di berikan flex-wrap -->
-        <div class="flex flex-wrap justify-center">
-          <!-- width full di gunakan ketika di versi agar semua semua nya jadi satu kolom dan berikan self center agar smua nya berada di tengah -->
-          <!-- BOX INFO -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="../fontawesome-free-6.4.2-web/css/all.css" />
+  <title>Document</title>
+</head>
+
+<body class="bg-slate-200">
+  <!-- HOME -->
+  <!-- hero section start -->
+  <section id="home" class="pt-6">
+    <!-- semua section akan disimpan ke tengah tengah ke dalam container -->
+    <div class="max-w-screen-md mx-auto py-3 lg:max-w-screen-lg">
+      <h1 class="text-xl px-7 text-[#FF9C1A] font-pacifico">
+        <span class="text-[#EC1B09]">My</span>Portfolio
+      </h1>
+    </div>
+    <div class="items-center mx-auto">
+      <!-- flex di gunakan untuk memudahkan mengatur elemen supaya turun kebawah di berikan flex-wrap -->
+      <div class="flex flex-wrap justify-center flex-row lg:max-w-screen-lg mx-auto lg:justify-start lg:items-start">
+        <!-- width full di gunakan ketika di versi agar semua semua nya jadi satu kolom dan berikan self center agar smua nya berada di tengah -->
+        <!-- BOX INFO -->
+        <div
+          class="border border-slate-200 p-5 mt-6 bg-white mx-auto rounded-xl shadow-md w-full md:max-w-screen-md order-2 lg:order-1 lg:w-fit lg:h-fit">
+          <img src="../asset/haha.jpg" alt="" class="w-32 h-32 mx-auto rounded-xl object-center mt-4 sm:max-h-32" />
+          <h1 class="mt-4 text-center font-bold text-2xl">Fajar Shodiq</h1>
+          <h2 class="text-center text-slate-400">Full Stack Developer</h2>
+          <div class="flex items-center justify-center mt-5">
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-brands fa-facebook text-blue-500"></i>
+            </a>
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-brands fa-linkedin text-blue-500"></i>
+            </a>
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-brands fa-instagram text-red-400"></i>
+            </a>
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-brands fa-github text-slate-950"></i>
+            </a>
+          </div>
           <div
-            class="border border-slate-200 p-5 mt-6 bg-white mx-auto rounded-xl shadow-md w-full md:max-w-screen-md"
-          >
-            <img
-              src="../asset/haha.jpg"
-              alt=""
-              class="w-32 h-32 mx-auto rounded-xl object-center mt-4 sm:max-h-32"
-            />
-            <h1 class="mt-4 text-center font-bold text-2xl">Fajar Shodiq</h1>
-            <h2 class="text-center text-slate-400">Full Stack Developer</h2>
-            <div class="flex items-center justify-center mt-5">
-              <a
-                href="#"
-                target="_blank"
-                class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-              >
-                <i class="fa-brands fa-facebook text-blue-500"></i>
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-              >
-                <i class="fa-brands fa-linkedin text-blue-500"></i>
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-              >
-                <i class="fa-brands fa-instagram text-red-400"></i>
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                class="bg-slate-200 text-white rounded-lg p-3 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg"
-              >
-                <i class="fa-brands fa-github text-slate-950"></i>
-              </a>
+            class="w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-white mx-auto rounded-xl shadow-md mt-5 overflow-x-auto">
+            <div class="flex items-center space-x-4">
+              <i
+                class="fa-solid fa-mobile-screen bg-gradient-to-r from-yellow-500 via-red-500 to-yellow-700 bg-clip-text text-transparent"></i>
+              <div class="">
+                <h2 class="text-slate-400 text-xs">Phone</h2>
+                <p class="font-semibold text-xs">+62851567108712</p>
+              </div>
             </div>
-            <div
-              class="w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-white mx-auto rounded-xl shadow-md mt-5 overflow-x-auto"
-            >
-              <div class="flex items-center space-x-4">
-                <i
-                  class="fa-solid fa-mobile-screen bg-gradient-to-r from-yellow-500 via-red-500 to-yellow-700 bg-clip-text text-transparent"
-                ></i>
-                <div class="">
-                  <h2 class="text-slate-400 text-xs">Phone</h2>
-                  <p class="font-semibold text-xs">+62851567108712</p>
-                </div>
+            <hr class="my-5" />
+            <div class="flex items-center space-x-4">
+              <i
+                class="fa-regular fa-envelope-open bg-gradient-to-r from-yellow-500 via-red-500 to-yellow-700 bg-clip-text text-transparent"></i>
+              <div>
+                <h2 class="text-slate-400 text-xs">Email</h2>
+                <p class="font-semibold text-xs">fajaralbar1234@gmail.com</p>
               </div>
-              <hr class="my-5" />
-              <div class="flex items-center space-x-4">
-                <i
-                  class="fa-regular fa-envelope-open bg-gradient-to-r from-yellow-500 via-red-500 to-yellow-700 bg-clip-text text-transparent"
-                ></i>
-                <div>
-                  <h2 class="text-slate-400 text-xs">Email</h2>
-                  <p class="font-semibold text-xs">fajaralbar1234@gmail.com</p>
-                </div>
+            </div>
+            <hr class="my-5" />
+            <div class="flex items-center space-x-4">
+              <i
+                class="fa-solid fa-location-dot bg-gradient-to-r from-yellow-500 via-red-500 to-yellow-700 bg-clip-text text-transparent"></i>
+              <div>
+                <h2 class="text-slate-400 text-xs">Location</h2>
+                <p class="font-semibold text-xs">
+                  Jl.SMP 126 Kel. Tengah Kec.Kramat Jati Jakarta Timur
+                </p>
               </div>
-              <hr class="my-5" />
-              <div class="flex items-center space-x-4">
-                <i
-                  class="fa-solid fa-location-dot bg-gradient-to-r from-yellow-500 via-red-500 to-yellow-700 bg-clip-text text-transparent"
-                ></i>
-                <div>
-                  <h2 class="text-slate-400 text-xs">Location</h2>
-                  <p class="font-semibold text-xs">
-                    Jl.SMP 126 Kel. Tengah Kec.Kramat Jati Jakarta Timur
-                  </p>
-                </div>
-              </div>
-              <hr class="my-5" />
-              <div class="flex items-center justify-center space-x-4 sm:mt-5">
-                <a
-                  href="file:///C:/Users/fajar/Downloads/my%20cv.pdf"
-                  class="rounded-full bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 flex items-center justify-center sm:m-2"
-                >
-                  <i class="fa-solid fa-download mr-2 my-2 text-xs"></i>
-                  Download Resume
-                </a>
-              </div>
+            </div>
+            <hr class="my-5" />
+            <div class="flex items-center justify-center space-x-4 sm:mt-5">
+              <a href="file:///C:/Users/fajar/Downloads/my%20cv.pdf"
+                class="rounded-full bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 flex items-center justify-center sm:m-2">
+                <i class="fa-solid fa-download mr-2 my-2 text-xs"></i>
+                Download Resume
+              </a>
             </div>
           </div>
-
-          <!-- BOX ABOUT -->
+        </div>
+        <!-- BOX ABOUT -->
+        <div class="order-2">
+          <!-- =======NAVIGASI===== -->
           <div
-            class="my-6 max-w-screen-md border border-slate-200 bg-white mx-auto p-6 rounded-xl shadow-md items-center justify-center md:max-w-screen-md"
-          >
+            class="m-auto flex items-center justify-center mt-5 border border-slate-200 bg-slate-100 rounded-xl px-28 py-3 shadow-xl max-w-screen-md order-1 lg:order-2">
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-5 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-solid fa-home text-slate-600 mx-3 hover:text-white"></i>
+            </a>
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-5 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-solid fa-book text-slate-600 mx-3 hover:text-white"></i>
+            </a>
+            <a href="#" target="_blank"
+              class="bg-slate-200 text-white rounded-lg p-5 mr-3 cursor-pointer transition-all hover:bg-gradient-to-br from-purple-300 to-pink-300 hover:shadow-lg">
+              <i class="fa-solid fa-address-book text-slate-600 mx-3 hover:text-white"></i>
+            </a>
+          </div>
+          <!-- ========END NAVIGASI======= -->
+          <div
+            class="my-6 max-w-screen-md border border-slate-200 bg-white mx-auto p-6 rounded-xl shadow-md items-center justify-center md:max-w-screen-md order-3 lg:order-3 lg:max-w-lg lg:mx-0">
             <h1 class="text-2xl font-semibold px-2 py-2 md:text-md">
               ABOUT ME
             </h1>
@@ -155,12 +123,9 @@
             <h1 class="px-2 py-2 text-2xl font-semibold sm:text-sm">
               WHAT I DO!
             </h1>
-            <div
-              class="md:columns-2 container mt-5 rounded-xl sm:columns-2"
-            >
+            <div class="md:columns-2 container mt-5 rounded-xl sm:columns-2">
               <div
-                class="w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-orange-200 mx-auto rounded-xl shadow-md items-center justify-center"
-              >
+                class="w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-orange-200 mx-auto rounded-xl shadow-md items-center justify-center">
                 <h1 class="font-semibold">
                   <i class="fa-solid fa-code text-orange-600"></i> WEB
                   DEVELOPMENT
@@ -174,8 +139,7 @@
                 </p>
               </div>
               <div
-                class="mt-5 w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-slate-300 mx-auto rounded-xl shadow-md items-center justify-center"
-              >
+                class="mt-5 w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-slate-300 mx-auto rounded-xl shadow-md items-center justify-center">
                 <h1 class="font-semibold">
                   <i class="fa-brands fa-buromobelexperte text-orange-800"></i>
                   APP DEVELOPMENT
@@ -189,12 +153,9 @@
                 </p>
               </div>
               <div
-                class="mt-5 w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-orange-200 mx-auto rounded-xl shadow-md items-center justify-center"
-              >
+                class="mt-5 w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-orange-200 mx-auto rounded-xl shadow-md items-center justify-center">
                 <h1 class="font-semibold">
-                  <i
-                    class="fa-solid fa-magic-wand-sparkles text-orange-600"
-                  ></i>
+                  <i class="fa-solid fa-magic-wand-sparkles text-orange-600"></i>
                   UI/UX DESIGN
                 </h1>
                 <hr class="border-b border-orange-700 my-4" />
@@ -206,8 +167,7 @@
                 </p>
               </div>
               <div
-                class="mt-5 w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-slate-300 mx-auto rounded-xl shadow-md items-center justify-center"
-              >
+                class="mt-5 w-full self-center px-5 max-w-sm border border-slate-200 p-5 bg-slate-300 mx-auto rounded-xl shadow-md items-center justify-center">
                 <h1 class="font-semibold">
                   <i class="fa-solid fa-person-chalkboard text-orange-600"></i>
                   MENTORSHIP
@@ -224,7 +184,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- hero section end -->
-  </body>
+    </div>
+  </section>
+  <!-- hero section end -->
+</body>
+
 </html>
